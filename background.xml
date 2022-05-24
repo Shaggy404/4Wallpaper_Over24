@@ -13,53 +13,53 @@
 <!-- Début à 0h, tourne sur 6h -->
 <static>
 <duration>20600.0</duration>
-<file>/home/shaggy_404/Background/Night.jpg</file>
+<file>/home/"User"/Background/Night.jpg</file>
 </static>
 
 <!-- Transition -->
 <transition type="overlay">
 <duration>1000.0</duration>
-<from>/home/shaggy_404/Background/Night.jpg</from>
-<to>/home/shaggy_404/Background/Morning.jpg</to>
+<from>/home/"User"/Background/Night.jpg</from>
+<to>/home/"User"/Background/Morning.jpg</to>
 </transition>
 
 <!-- Continue à 6h, tourne sur 6h -->
 <static>
 <duration>20600.0</duration>
-<file>/home/shaggy_404/BackgroundMorning.jpg</file>
+<file>/home/"User"/BackgroundMorning.jpg</file>
 </static>
 
 <!-- Transition -->
 <transition type="overlay">
 <duration>1000.0</duration>
-<from>/home/shaggy_404/Background/Morning.jpg</from>
-<to>/home/shaggy_404/Background/Afternoon.jpg</to>
+<from>/home/"User"/Background/Morning.jpg</from>
+<to>/home/"User"/Background/Afternoon.jpg</to>
 </transition>
 
 <!-- Continue à 12h, tourne sur 6h -->
 <static>
 <duration>20600.0</duration>
-<file>/home/shaggy_404/Background/Afternoon.jpg</file>
+<file>/home/"User"/Background/Afternoon.jpg</file>
 </static>
 
 <!-- Transition -->
 <transition type="overlay">
 <duration>1000.0</duration>
-<from>/home/shaggy_404/Background/Afternoon.jpg</from>
-<to>/home/shaggy_404/Background/Evening.jpg</to>
+<from>/home/"User"/Background/Afternoon.jpg</from>
+<to>/home/"User"/Background/Evening.jpg</to>
 </transition>
 
 <!-- Continue à 18, tourne sur 6h -->
 <static>
 <duration>20600.0</duration>
-<file>/home/shaggy_404/Background/Evening.jpg</file>
+<file>/home/"User"/Background/Evening.jpg</file>
 </static>
 
 <!-- Transition -->
 <transition type="overlay">
 <duration>1000.0</duration>
-<from>/home/shaggy_404/Background/Evening.jpg</from>
-<to>/home/shaggy_404/Background/Night.jpg</to>
+<from>/home/"User"/Background/Evening.jpg</from>
+<to>/home/"User"/Background/Night.jpg</to>
 </transition>
 
 </background>
