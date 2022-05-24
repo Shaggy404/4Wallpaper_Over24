@@ -1,0 +1,65 @@
+<background>
+
+<!-- This animation will start at 8 AM. -->
+  <starttime>
+    <year>2022</year>
+    <month>05</month>
+    <day>23</day>
+    <hour>00</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+
+<!-- Début à 0h, tourne sur 6h -->
+<static>
+<duration>20600.0</duration>
+<file>/home/shaggy_404/Background/Night.jpg</file>
+</static>
+
+<!-- Transition -->
+<transition type="overlay">
+<duration>1000.0</duration>
+<from>/home/shaggy_404/Background/Night.jpg</from>
+<to>/home/shaggy_404/Background/Morning.jpg</to>
+</transition>
+
+<!-- Continue à 6h, tourne sur 6h -->
+<static>
+<duration>20600.0</duration>
+<file>/home/shaggy_404/BackgroundMorning.jpg</file>
+</static>
+
+<!-- Transition -->
+<transition type="overlay">
+<duration>1000.0</duration>
+<from>/home/shaggy_404/Background/Morning.jpg</from>
+<to>/home/shaggy_404/Background/Afternoon.jpg</to>
+</transition>
+
+<!-- Continue à 12h, tourne sur 6h -->
+<static>
+<duration>20600.0</duration>
+<file>/home/shaggy_404/Background/Afternoon.jpg</file>
+</static>
+
+<!-- Transition -->
+<transition type="overlay">
+<duration>1000.0</duration>
+<from>/home/shaggy_404/Background/Afternoon.jpg</from>
+<to>/home/shaggy_404/Background/Evening.jpg</to>
+</transition>
+
+<!-- Continue à 18, tourne sur 6h -->
+<static>
+<duration>20600.0</duration>
+<file>/home/shaggy_404/Background/Evening.jpg</file>
+</static>
+
+<!-- Transition -->
+<transition type="overlay">
+<duration>1000.0</duration>
+<from>/home/shaggy_404/Background/Evening.jpg</from>
+<to>/home/shaggy_404/Background/Night.jpg</to>
+</transition>
+
+</background>
