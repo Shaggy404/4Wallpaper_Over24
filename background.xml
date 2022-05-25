@@ -13,14 +13,14 @@
 <!-- Début à 0h, tourne sur 6h -->
 <static>
 <duration>20600.0</duration>
-<file>/home/"User"/Background/Night.jpg</file>
+<file>/pathto/Night.jpg</file>
 </static>
 
 <!-- Transition -->
 <transition type="overlay">
 <duration>1000.0</duration>
-<from>/home/"User"/Background/Night.jpg</from>
-<to>/home/"User"/Background/Morning.jpg</to>
+<from>/pathto/Night.jpg</from>
+<to>/pathto/Morning.jpg</to>
 </transition>
 
 <!-- Continue à 6h, tourne sur 6h -->
@@ -32,34 +32,34 @@
 <!-- Transition -->
 <transition type="overlay">
 <duration>1000.0</duration>
-<from>/home/"User"/Background/Morning.jpg</from>
-<to>/home/"User"/Background/Afternoon.jpg</to>
+<from>/pathto/Morning.jpg</from>
+<to>/pathto/Afternoon.jpg</to>
 </transition>
 
 <!-- Continue à 12h, tourne sur 6h -->
 <static>
 <duration>20600.0</duration>
-<file>/home/"User"/Background/Afternoon.jpg</file>
+<file>/pathto/Afternoon.jpg</file>
 </static>
 
 <!-- Transition -->
 <transition type="overlay">
 <duration>1000.0</duration>
-<from>/home/"User"/Background/Afternoon.jpg</from>
-<to>/home/"User"/Background/Evening.jpg</to>
+<from>/pathto/Afternoon.jpg</from>
+<to>/pathto/Evening.jpg</to>
 </transition>
 
 <!-- Continue à 18, tourne sur 6h -->
 <static>
 <duration>20600.0</duration>
-<file>/home/"User"/Background/Evening.jpg</file>
+<file>/pathto/Evening.jpg</file>
 </static>
 
 <!-- Transition -->
 <transition type="overlay">
 <duration>1000.0</duration>
-<from>/home/"User"/Background/Evening.jpg</from>
-<to>/home/"User"/Background/Night.jpg</to>
+<from>/pathto/Evening.jpg</from>
+<to>/pathto/Night.jpg</to>
 </transition>
 
 </background>
