@@ -26,7 +26,7 @@
 <!-- Continue à 6h, tourne sur 6h -->
 <static>
 <duration>20600.0</duration>
-<file>/home/"User"/BackgroundMorning.jpg</file>
+<file>/pathto/Morning.jpg</file>
 </static>
 
 <!-- Transition -->
